@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌊</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Profil Kami</a></li>
+        <li><a href="#services">Portofolio</a></li>
+        <li><a href="#message">Hubungi Kami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="banner">
+      <div class="banner-content">
+        <h1 id="welcome">Hi [Name], Welcome To Website</h1>
+          <p>Ini adalah website sederhana pertama</p>
+      </div>
+      <div class="banner-image">
+        <img src="asset/company-build.jpg" alt="Company Image" />
+      </div>
+    </section>
+<!-- 
+    <section id="home" class="banner">
+      <h1 id="welcome">Hi [Name], Welcome To Website</h1>
+      <p>Ini adalah website sederhana pertama</p>
+      <div class="hero-image">
+        <img class="card" src="asset/monas.png" alt="Website Icon"/>
+    </section> -->
+
+    <!-- About Us -->
+    <section id="profile" class="about">
+      <h2>About Us</h2>
+      <p>Didirikan sejak tahun 2023, Techyu adalah perusahaan yang bergerak di bidang teknologi informasi, menyediakan solusi digital inovatif untuk klien di Bandung, terkhususnya Tenaga Pendidik dan UMKM.</p>
+      <div class="cards">
+        <div class="card hover-card">
+          <img src="https://img.icons8.com/color/48/rocket--v1.png"/>
+          <h3>Innovation</h3>
+          <p>Digitalisasi Pembelajaran, Assesment serta administrasi sekolah (Kurikulum Merdeka,Eraport,Dapodik).</p>
+        </div>
+        <div class="card hover-card">
+          <img src="https://img.icons8.com/color/48/star--v1.png"/>
+          <h3>Excellence</h3>
+          <p>Komitmen untuk memberikan kualitas penuh dalam setiap proyek yang kami kerjakan.</p>
+        </div>
+        <div class="card hover-card">
+          <img src="https://img.icons8.com/color/48/handshake--v1.png"/>
+          <h3>Partnership</h3>
+          <p>Membangun hubungan yang bersimbiosis dan bersinergi dengan klien dan mitra, demi mencapai tujuan bersama.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+      <h2>Our Portfolio</h2>
+      <div class="cards">
+        <div class="card hover-card">
+          <h3>Web Design</h3>
+          <p>Desain website responsif dan menarik dengan pengalaman pengguna yang optimal.</p>
+        </div>
+        <div class="card hover-card">
+          <h3>Virtual Private Server</h3>
+          <p>Solusi VPS yang handal dan aman untuk kebutuhan bisnis Anda.</p>
+        </div>
+        <div class="card hover-card">
+          <h3>Dukungan Teknis dan infrastruktur</h3>
+          <p>Memberikan dukungan teknis untuk perangkat keras dan infrastruktur IT Anda.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="team">
+      <h2>Tim Kami</h2>
+      <p>Kenali para profesional berbakat di balik Techyu</p>
+      <div class="cards">
+        <div class="card hover-card team-card">
+          <div class="avatar-frame"><img src="asset/karim.jpg"></div><h3>Muhammad Karim Fadillah</h3><p>CEO & Founder</p><small>2+ tahun sebagai IT Support dan 1 tahun sebagai Developer</small></div>
+        <div class="card hover-card team-card">
+          <div class="avatar-frame"><img src="asset/kemal.jpg"></div><h3>Kemal Yazid Fauzi</h3><p>Front-End Web Developer</p><small>2+ tahun sebagai Frontend Developer Laravel</small></div>
+        <div class="card hover-card team-card">
+          <div class="avatar-frame"><img src="asset/farhan.jpg"></div><h3>Mochamad Rizky Farhan Auliya</h3><p>Lead Developer</p><small>1 tahun sebagai Data Engineer dan Back-end Developer</small></div>
+      </div>
+    </section>
+
+    <!-- Message Us -->
+    <section id="message" class="message-us">
+      <h2>Message Us</h2>
+      <form id="contactForm">
+        <label>Nama:</label>
+        <input type="text" id="name" required />
+        <label>Tanggal Lahir:</label>
+        <input type="date" id="dob" required />
+        <label>Jenis Kelamin:</label>
+        <div class="radio-group">
+          <input type="radio" name="gender" value="Laki-Laki" /> Laki-Laki
+          <input type="radio" name="gender" value="Perempuan" /> Perempuan
+        </div>
+        <label>Pesan:</label>
+        <textarea id="messageInput" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="form-output" id="output"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="contact-info">
+        <p><strong>Email:</strong> hello@techyu.com</p>
+        <p><strong>Phone:</strong> +62 85174320395</p>
+        <p><strong>Address:</strong> Jl. Geger Arum I No.73 Lantai 2, Isola, Kec. Sukasari, Kota Bandung, Jawa Barat 40154</p>
+      </div>
+      <div class="copyright">
+        <p>© 2023 TechYu. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
